@@ -1,0 +1,19 @@
+server:
+  port: 8086
+app:
+  name: My app
+  description: Welcome to ${app.name}
+
+
+my:
+   greeting : Hello World
+   list.values : One,Two,Three
+
+
+db:
+  connection : connection-string-here
+  host : 127.0.0.1
+  port : 1200
+
+management.endpoints.web.exposure.include : "*"
+spring.profiles.active: test
